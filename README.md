@@ -12,4 +12,8 @@ Ambiente de tecnologías web para apoyar a los pequeños negocios y oficios a en
   * Messenger
   * Firebase
   * Api de Google Sheets
-  
+  * Spark AR Studio
+ 
+# Version del Proyecto
+
+Version 1.0 Release 7 de junio.
