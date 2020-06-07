@@ -1,0 +1,39 @@
+{
+  "id": "446ed0c7-2de0-420f-9312-e4744f382a75",
+  "name": "Servicio Resuelto Mejor Ranking",
+  "auto": true,
+  "contexts": [
+    "servicioEscogido"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "comercioResuelto",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "Muy bien, estos son los mejor calificados en tu zona.\n1) Maderas pepe\n2) Carpinteria Reyes\n3) Arreglos madereros\n\nSelecciona el número del que quieras conocer más"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

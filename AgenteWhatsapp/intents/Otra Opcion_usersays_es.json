@@ -1,0 +1,16 @@
+[
+  {
+    "id": "783ae80f-b654-4ea5-af79-1664528db65b",
+    "data": [
+      {
+        "text": "otro",
+        "alias": "another",
+        "meta": "@another",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

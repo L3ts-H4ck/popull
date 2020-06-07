@@ -1,20 +1,27 @@
 {
-  "id": "3183b0a9-b6d1-48c8-b3a3-bfdd32d9c186",
-  "name": "Default Welcome Intent",
+  "id": "c7e9b306-f868-4aeb-a71b-c4e301dfb2b6",
+  "name": "Otra Opcion",
   "auto": true,
-  "contexts": [],
+  "contexts": [
+    "tiposervicio"
+  ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "input.welcome",
-      "affectedContexts": [],
+      "affectedContexts": [
+        {
+          "name": "otroservicio",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
       "parameters": [
         {
-          "id": "7dad8caa-7c91-47f7-82ad-cc7ef2751923",
-          "required": true,
-          "dataType": "@saludo",
-          "name": "saludo",
-          "value": "$saludo",
+          "id": "d9485cf9-af02-4444-a34f-050c4e96323e",
+          "required": false,
+          "dataType": "@another",
+          "name": "another",
+          "value": "$another",
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
@@ -27,7 +34,7 @@
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": "Hola, Bienvenido a Popull! ¿Qué vas a necesitar hoy?\n- Contratar un servicio 🛍️\n- Ofrecer algún servicio💰"
+          "speech": "Escribe el tipo de servicio que quieres buscar."
         }
       ],
       "defaultResponsePlatforms": {},
@@ -38,11 +45,7 @@
   "webhookUsed": false,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
-  "events": [
-    {
-      "name": "WELCOME"
-    }
-  ],
+  "events": [],
   "conditionalResponses": [],
   "condition": "",
   "conditionalFollowupEvents": []

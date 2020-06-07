@@ -6,10 +6,21 @@
   "responses": [
     {
       "resetContexts": false,
-      "affectedContexts": [],
+      "affectedContexts": [
+        {
+          "name": "tiposervicio",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "contratar",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
       "parameters": [
         {
-          "id": "5bdbef85-1a7d-49cc-95a4-069fa6135400",
+          "id": "0ddb7ac1-4732-4d1a-be39-6a783e8cb81c",
           "required": false,
           "dataType": "@necesidad",
           "name": "necesidad",
@@ -21,7 +32,7 @@
           "isList": false
         },
         {
-          "id": "a2b5db2a-5e8a-407a-8172-12ecf5411164",
+          "id": "3ab24adb-edab-4cdb-8f68-7617443d56f0",
           "required": true,
           "dataType": "@servicio",
           "name": "servicio",
@@ -38,7 +49,7 @@
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": "Muy bien, estos son los que hay en tu zona"
+          "speech": "Muy bien que tipo de servicio quieres?\n- Plomeria\n- Cerrajeria\n- Floreria"
         }
       ],
       "defaultResponsePlatforms": {},
