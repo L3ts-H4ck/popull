@@ -1,0 +1,39 @@
+[
+  {
+    "value": "carpintero",
+    "synonyms": [
+      "carpintero",
+      "carpinteria",
+      "maderero",
+      "madera"
+    ]
+  },
+  {
+    "value": "plomero",
+    "synonyms": [
+      "plomero",
+      "plomeria",
+      "tuberias"
+    ]
+  },
+  {
+    "value": "cocinero",
+    "synonyms": [
+      "cocinero",
+      "cocineria",
+      "gastronomo",
+      "gastronomia",
+      "comida"
+    ]
+  },
+  {
+    "value": "cerrajero",
+    "synonyms": [
+      "cerrajero",
+      "cerrajeria",
+      "llaves",
+      "chapas",
+      "candados"
+    ]
+  }
+]

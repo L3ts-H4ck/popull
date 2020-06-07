@@ -1,0 +1,16 @@
+[
+  {
+    "id": "05de2795-8c8a-4f3b-a9b6-c2c360bbad05",
+    "data": [
+      {
+        "text": "saludos",
+        "alias": "saludo",
+        "meta": "@saludo",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

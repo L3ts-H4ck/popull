@@ -1,0 +1,31 @@
+{
+  "id": "c67b68a8-72aa-4bc3-aa4f-ef017f7d69ce",
+  "name": "filtro",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "https://www.facebook.com/fbcameraeffects/testit/267169897972945/YTY0YzczNDNiY2EyZTlmNDhlNTJhYjRkZDI2MDMwZWI\u003d/"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

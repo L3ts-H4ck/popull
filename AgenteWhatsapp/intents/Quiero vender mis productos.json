@@ -1,0 +1,59 @@
+{
+  "id": "b4675a96-cc9e-4ac7-a1f8-2073c94afe75",
+  "name": "Quiero vender mis productos",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3ef328e8-2e90-4c66-9a64-4dc2dc3fd9e0",
+          "required": false,
+          "dataType": "@sys.location",
+          "name": "location",
+          "value": "$location",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": [
+            "Excelente por favor agrega la siguiente información 🙂",
+            "Genial, te pedimos de favor registrar la siguiente información 🙂"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "Qué tipo de servicios o productos ofreces?"
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "🧑‍💼 Servicios\n📦 Productos"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

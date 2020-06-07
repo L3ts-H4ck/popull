@@ -1,0 +1,9 @@
+{
+  "id": "7d627aa5-12a1-484d-9c24-1def0ae6610b",
+  "name": "help",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": true
+}

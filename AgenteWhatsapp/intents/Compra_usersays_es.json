@@ -1,0 +1,50 @@
+[
+  {
+    "id": "f4c11f80-60ef-46bb-9377-b501b4ee593e",
+    "data": [
+      {
+        "text": "quiero",
+        "alias": "necesidad",
+        "meta": "@necesidad",
+        "userDefined": true
+      },
+      {
+        "text": " un ",
+        "userDefined": false
+      },
+      {
+        "text": "servicio",
+        "alias": "servicio",
+        "meta": "@servicio",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "16730240-2ccb-4137-a991-1160beaf548c",
+    "data": [
+      {
+        "text": "necesito comprar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "79ac7be1-5a3a-417d-924d-6cddf65529db",
+    "data": [
+      {
+        "text": "quiero comprar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

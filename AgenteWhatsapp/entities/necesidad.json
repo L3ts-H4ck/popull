@@ -1,0 +1,9 @@
+{
+  "id": "ee30179d-f97a-4c06-a1f8-379aa7344831",
+  "name": "necesidad",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": true
+}

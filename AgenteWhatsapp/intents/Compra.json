@@ -1,0 +1,56 @@
+{
+  "id": "12a4a362-ec9b-41c5-8f3d-b85aaf080602",
+  "name": "Compra",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "5bdbef85-1a7d-49cc-95a4-069fa6135400",
+          "required": false,
+          "dataType": "@necesidad",
+          "name": "necesidad",
+          "value": "$necesidad",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "a2b5db2a-5e8a-407a-8172-12ecf5411164",
+          "required": true,
+          "dataType": "@servicio",
+          "name": "servicio",
+          "value": "$servicio",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "Muy bien, estos son los que hay en tu zona"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
