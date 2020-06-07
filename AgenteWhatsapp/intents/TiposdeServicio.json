@@ -1,20 +1,28 @@
 {
-  "id": "3183b0a9-b6d1-48c8-b3a3-bfdd32d9c186",
-  "name": "Default Welcome Intent",
+  "id": "4497fa09-d3d8-4e80-a415-cf182595cb5d",
+  "name": "TiposdeServicio",
   "auto": true,
-  "contexts": [],
+  "contexts": [
+    "tiposervicio",
+    "contratar"
+  ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "input.welcome",
-      "affectedContexts": [],
+      "affectedContexts": [
+        {
+          "name": "servicioEscogido",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
       "parameters": [
         {
-          "id": "7dad8caa-7c91-47f7-82ad-cc7ef2751923",
+          "id": "9e0da7df-efcd-4bcb-ba82-37722ac5c2c9",
           "required": true,
-          "dataType": "@saludo",
-          "name": "saludo",
-          "value": "$saludo",
+          "dataType": "@servicio",
+          "name": "servicio",
+          "value": "$servicio",
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
@@ -27,7 +35,7 @@
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": "Hola, Bienvenido a Popull! ¿Qué vas a necesitar hoy?\n- Contratar un servicio 🛍️\n- Ofrecer algún servicio💰"
+          "speech": "Se encontro esto para $servicio\n\nEscribe el número del que desees ver.\n1) Mejor calificados\n2) Más cerca\n3) Más baratos"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -38,11 +46,7 @@
   "webhookUsed": false,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
-  "events": [
-    {
-      "name": "WELCOME"
-    }
-  ],
+  "events": [],
   "conditionalResponses": [],
   "condition": "",
   "conditionalFollowupEvents": []

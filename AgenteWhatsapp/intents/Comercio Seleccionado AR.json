@@ -1,0 +1,33 @@
+{
+  "id": "d3eeb1c0-12b0-403a-a56a-4c74d6519333",
+  "name": "Comercio Seleccionado AR",
+  "auto": true,
+  "contexts": [
+    "comercioResuelto"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "Entra a este link y prueba los productos en tu casa.\n\nhttps://www.facebook.com/fbcameraeffects/testit/704675120288476/NWIzMzFhZDk5YmUxOTNhYjhhM2ZkMjc0YmU1ZWJhOGU\u003d/"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
